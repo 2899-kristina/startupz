@@ -1,0 +1,48 @@
+/** @format */
+@font-face {
+  font-family: Circular Std;
+  src: url("/assets/font/circular-std-font-family/CircularStd-Book.woff");
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #3d4f5c;
+  margin: 0;
+  font-family: Circular Std;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+h2 {
+  color: #3d4f5c;
+  font-size: 50px;
+}
+.btn-primary {
+  background: #46b8c8;
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: white;
+  font-size: 18px;
+  font-family: Circular Std;
+  line-height: 18px;
+  word-wrap: break-word;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-secondary {
+  padding: 10px 30px;
+  border: 1px solid;
+  border-radius: 50px;
+  border-color: #46b8c8;
+  color: #46b8c8;
+  background: transparent;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+}

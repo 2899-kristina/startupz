@@ -1,0 +1,48 @@
+/** @format */
+.heading__title {
+  font-size: 80px;
+  margin: 0;
+}
+
+.heading__subtitle {
+  color: hsl(18, 95%, 66%);
+  font-size: 24px;
+}
+
+.hero {
+  background-image: url("/assets/img/hero.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding: 145px 0 225px 120px;
+}
+.container__box {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.content {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 80px;
+}
+.heading__subtitle__second {
+  color: #3d4f5c;
+  font-size: 30px;
+}
+.num {
+  font-size: 30px;
+}
+.box2 {
+  background: #fbfafa;
+  padding: 147px 0 157px;
+}
