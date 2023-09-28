@@ -14,13 +14,17 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   width: 100%;
   margin: auto;
 }
 h2 {
   color: #3d4f5c;
   font-size: 50px;
+}
+.btn-primary:hover {
+  background: rgb(3 132 150);
+  transition: 0.2s ease-in;
 }
 .btn-primary {
   background: #46b8c8;
@@ -34,6 +38,11 @@ h2 {
   text-decoration: none;
   display: inline-block;
 }
+.btn-secondary:hover {
+  background: #46b8c8;
+  color: white;
+  transition: 0.2s ease-in;
+}
 
 .btn-secondary {
   padding: 10px 30px;
@@ -45,4 +54,29 @@ h2 {
   font-size: 18px;
   font-weight: 400;
   display: inline-block;
+  text-decoration: none;
+}
+
+.btn-grey {
+  padding: 10px 30px;
+  border: 1px solid;
+  border-radius: 50px;
+  border-color: #3d4f5c;
+  color: #ffffff;
+  background: #3d4f5c;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: none;
+}
+.btn-grey:hover {
+  background: rgb(24, 29, 30);
+  color: white;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.grid_our__work {
+  box-shadow: 0px 8px 35px rgba(187, 168.92, 141.81, 0.15);
+  margin: 25px;
+  border-radius: 30px;
 }
